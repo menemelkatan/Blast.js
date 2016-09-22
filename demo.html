@@ -1,0 +1,149 @@
+<html>
+<head>
+  <title>colors' blast demo</title>
+  <meta charset="utf-8" />
+  <link href="blast.min.css" rel="stylesheet" />
+
+
+  <style>
+  p{ line-height: 1em; }
+h1, h2, h3, h4{
+  color: orange;
+font-weight: normal;
+line-height: 1.1em;
+margin: 0 0 .5em 0;
+}
+h1{ font-size: 1.7em; }
+h2{ font-size: 1.5em; }
+a{
+color: black;
+text-decoration: none;
+}
+a:hover,
+a:active{ text-decoration: underline; }
+
+
+body{
+  font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0; background: #eee;
+}
+#page{ margin: 20px; }
+
+#logo{
+width: 35%;
+margin-top: 5px;
+font-family: georgia;
+display: inline-block;
+
+}
+#logoLink{
+color: orange;
+}
+#nav{
+width: 60%;
+display: inline-block;
+text-align: right;
+float: right;
+}
+#nav ul{}
+  #nav ul li{
+    display: inline-block;
+    height: 62px;
+  }
+    #nav ul li a{
+      padding: 20px;
+      background: orange;
+      color: white;
+    }
+    #nav ul li a:hover{
+      background-color: #ffb424;
+      box-shadow: 0px 1px 1px #666;
+    }
+    #nav ul li a:active{ background-color: #ff8f00; }
+
+#content{
+margin: 30px 0;
+background: white;
+padding: 20px;
+clear: both;
+}
+#footer{
+margin-bottom: 10px;
+padding: 20px 350px;
+border: 2px solid orange;
+
+}
+#footer p{
+  text-align: right;
+  text-transform: uppercase;
+  font-size: 80%;
+  text-align: center;
+  color: orange;
+  font-weight: bold;
+  letter-spacing: 10px;
+  line-height: 30px;
+}
+
+#content,
+ul li a{ box-shadow: 0px 1px 1px #999; }
+  </style>
+
+</head>
+<body>
+
+  <colorsBox>
+    <icon>≡</icon>
+    <div class="frame">
+      <p>change colors</p>
+      <div class="colors">
+        <div class="color">#3D261A</div>
+        <div class="color">#B6B254</div>
+        <div class="color">#6B2E56</div>
+        <div class="color">#48A871</div>
+        <div class="color">#2D1D44</div>
+        <div class="color">#3F4E92</div>
+        <div class="color">#DCC218</div>
+        <div class="color">#F5005E</div>
+        <div class="color">#916E30</div>
+        <div class="color">#D0A571</div>
+        <div class="color">#379AA4</div>
+        <div class="color">#216348</div>
+        <div class="color">#3B3B3B</div>
+        <div class="color">#CF2626</div>
+      </div>
+      <p class="custom-colors">Custom colors</p>
+      <input type="color" name="customColor" value="#cf2626">
+    </div>
+  </colorsBox>
+  <!-- you can change the color by type it's name or code here -->
+
+  <div id="page">
+  <div id="logo">
+    <h1><a href="" id="logoLink" data-type="color">Colors blast demo</a></h1>
+  </div>
+  <div id="nav">
+    <ul>
+      <li><a data-type="bgColor" href="#">Home</a></li>
+      <li><a data-type="bgColor" href="#">About</a></li>
+      <li><a data-type="bgColor" href="#">Contact</a></li>
+    </ul>
+  </div>
+  <div id="content">
+    <h2 data-type="color" >Home</h2>
+    <p>
+      Its like a symbology of this of your mouth is eating food, from your mouth to your heart, is your freedom and your independence and your identity. It's OK to get Rib-grease on your face, because you're allowing people to see that you're proud of these ribs.
+    </p>
+    <p>
+      When you get lost in your imaginatory vagueness, your foresight will become a nimble vagrant. The magic Indian is a mysterious spiritual force, and we're going to Cathedral Rock, and that's the vortex of the heart.
+    </p>
+  </div>
+  <div id="footer" data-type="borderColor" >
+    <p data-type="color" >
+      You ever roasted doughnuts? It's OK to get Rib-grease on your face, because you're allowing people to see that you're proud of these ribs. Go with the feeling of the nature. Take it easy. Know why you're here. And remeber to balance your internal energy with the environment.
+    </p>
+  </div>
+</div>
+
+  <script src="jquery-1.11.3.js"></script>
+  <script src="blast.min.js"></script>
+</body>
+</html>
