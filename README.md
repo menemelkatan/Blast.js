@@ -1,6 +1,7 @@
 # Blast.js, A jQuery plugin for changing website colors
 
 it makes colors flexable and you can customize all colors in the website by one click
+
 demo = http://men3m.xyz/blast/demo.html
 
 ## How it works
