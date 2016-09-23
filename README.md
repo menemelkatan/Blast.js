@@ -97,5 +97,5 @@ you can change the colors for unlimited times and choose any color
 #Changelog
 * `v 1.0` - Initial Release
 
-### Download, Fork, Commit.
+### Download, Fork and Commit.
 If you think you can make this better, please Download, Fork, & Commit. We'd love to see your ideas.
