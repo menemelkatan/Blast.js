@@ -2,7 +2,7 @@
 
 it makes colors flexable and you can customize all colors in the website by one click
 
-demo = http://men3m.xyz/blast/demo.html
+demo = http://blastjs.bitballoon.com/
 
 ## How it works
 Here is a simple Blast.js setup:
