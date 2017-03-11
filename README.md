@@ -1,4 +1,4 @@
-# Blast.js, A jQuery plugin for changing website colors
+# Blast.js, The cest jQuery plugin for changing website colors
 
 it makes colors flexable and you can customize all colors in the website by one click
 
@@ -10,8 +10,8 @@ Here is a simple Blast.js setup:
 ###  1- Markup
 add this tags to the html page inside "body" tag
 ```html
-<colorsBox>
-    <icon>≡</icon>
+<div class="blast-box">
+    <div class="blast-icon">≡</div>
     <div class="blast-frame">
       <p>change colors</p>
       <div class="blast-colors">
@@ -28,12 +28,12 @@ add this tags to the html page inside "body" tag
         <div class="blast-color">#379AA4</div>
         <div class="blast-color">#216348</div>
         <div class="blast-color">#3B3B3B</div>
-        <div class="blast-color">#CF2626 <!-- you can change the color by type it's name or code here --> </div>
+        <div class="blast-color">#CF2626</div>
       </div>
       <p class="blast-custom-colors">Custom colors</p>
-      <input type="color" name="blastCustomColor" value="#cf2626">
+      <input type="color" name="blastCustomColor" value="#cf2626" placeholder="color code...">
     </div>
-  </colorsBox>
+  </div>
   ```
 ###   2- css file
 add the stylesheet file inside the "head" tag
@@ -96,6 +96,7 @@ you can change the colors for unlimited times and choose any color
 
 #Changelog
 * `v 1.0` - Initial Release
+* `v 1.1` - If you change the website colors and refresh the page all changes will be saved
 
 ### Download, Fork and Commit.
 If you think you can make this better, please Download, Fork, & Commit. We'd love to see your ideas.
