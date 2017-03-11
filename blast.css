@@ -6,7 +6,7 @@
 body {
   background: #FEFBFD; }
 
-colorsBox {
+.blast-box {
   position: fixed;
   width: 300px;
   height: 300px;
@@ -16,7 +16,7 @@ colorsBox {
   z-index: 9999;
   font-family: sans-serif;
   transition: 0.5s cubic-bezier(1, 1.48, 0.76, 0.95) left; }
-  colorsBox icon {
+  .blast-icon {
     position: absolute;
     width: 40px;
     line-height: 40px;
@@ -33,7 +33,7 @@ colorsBox {
     transform-origin: left;
     transition-delay: 0.5s;
     z-index: 9999; }
-  colorsBox .blast-frame {
+  .blast-box .blast-frame {
     position: absolute;
     width: calc(100% - 40px);
     height: 300px;
@@ -45,10 +45,10 @@ colorsBox {
     letter-spacing: 10px;
     color: #3C8137;
     padding: 20px 5px; }
-  colorsBox .blast-colors {
+  .blast-box .blast-colors {
     margin: 20px;
     padding-bottom: 20px; }
-  colorsBox .blast-color {
+  .blast-box .blast-color {
     position: relative;
     float: left;
     margin: 2px;
@@ -61,10 +61,10 @@ colorsBox {
     overflow: hidden;
     cursor: pointer;
     border: 2px solid white; }
-  colorsBox .blast-custom-colors {
+  .blast-box .blast-custom-colors {
     clear: both;
     padding-top: 40px; }
-  colorsBox input[name="blastCustomColor"] {
+  .blast-box input[name="blastCustomColor"] {
     margin-top: 20px;
     cursor: pointer;
     height: 30px;
